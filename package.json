@@ -1,0 +1,18 @@
+{
+  "name": "exemplo-javascript-integracao-pdf-pkcs12",
+  "version": "1.0.0",
+  "description": "Exemplo de integração para o endpoint de assinatura PDF com certificado em arquivo (PFX) do SolidSign API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "form-data": "^4.0.0",
+    "jszip": "^3.10.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
